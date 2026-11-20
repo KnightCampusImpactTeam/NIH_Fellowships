@@ -1,0 +1,10 @@
+/* Small custom tweaks on top of the Quarto theme.
+   Safe to leave empty or delete if you don't want any overrides. */
+
+.navbar-title {
+  font-weight: 600;
+}
+
+.callout-note, .callout-tip {
+  font-size: 0.95em;
+}
