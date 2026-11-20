@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+## Overview
+
+*[Replace with 2-3 paragraphs describing the course: what it covers, why it matters for bioengineering PhD students and postdocs, and what participants will be able to do by the end.]*
+
+## Learning goals
+
+By the end of this course, participants will be able to:
+
+1. *[e.g., Explain their research to a non-specialist audience in under 2 minutes]*
+2. *[e.g., Design a clear, honest scientific figure]*
+3. *[e.g., Write an abstract that a grant reviewer can follow on first read]*
+4. *[Add or remove goals as needed]*
+
+## Who this is for
+
+*[e.g., This course is designed for bioengineering PhD students and postdocs at any stage, from first-years preparing their first conference talk to senior students drafting a job talk.]*
+
+## Instructor
+
+**[Your name]**
+
+*[A short bio: your role, background, and why you're teaching this.]*
+
+*[Contact email / office hours, if relevant]*
