@@ -1,0 +1,39 @@
+---
+title: "Materials"
+---
+
+## How to access materials
+
+Slides, handouts, and activities live in a University of Oregon SharePoint folder. Links below open SharePoint and ask you to sign in with your UO account.
+
+::: {.callout-note}
+## UO login required
+If a link says you don't have access, make sure you're signed in with your UO (Duck ID) account. Still stuck? Contact *[your email]*.
+:::
+
+*[Placeholder links below: replace each `#` with the real SharePoint sharing link.]*
+
+## Module 1: Knowing your audience
+
+- [Slides](#)
+- [Handout: audience worksheet](#)
+
+## Module 2: Visual communication
+
+- [Slides](#)
+- [Example figure critiques](#)
+
+## Module 3: The elevator pitch
+
+- [Slides](#)
+- [Pitch template](#)
+
+## Module 4: Writing for general audiences
+
+- [Slides](#)
+- [Sample abstracts (before and after)](#)
+
+## Activities and templates
+
+- *[e.g., Peer feedback rubric]*
+- *[e.g., Talk outline template]*
