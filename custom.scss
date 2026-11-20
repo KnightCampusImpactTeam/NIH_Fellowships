@@ -1,0 +1,147 @@
+/*-- scss:defaults --*/
+
+// Impact Week brand: UO green, Source Sans, thin 0.25 pt-style strokes.
+$uo-green: #036B2F;
+$ink: #1a1a1a;
+$line: #c9cdd0;
+
+$primary: $uo-green;
+$link-color: $uo-green;
+$link-hover-color: darken($uo-green, 8%);
+$body-color: $ink;
+$headings-color: $ink;
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-weight: 700;
+$font-size-base: 1.05rem;
+$table-border-color: $line;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $ink;
+$navbar-hover-color: $uo-green;
+$navbar-light-active-color: $uo-green;
+
+/*-- scss:rules --*/
+
+// ---------- Header: thin green rule + green block, top-left ----------
+#quarto-header .navbar {
+  border-top: 4px solid $uo-green;      // the thin green rule
+  border-bottom: 1px solid $line;
+  padding: 0;
+}
+#quarto-header .navbar-container {
+  padding-left: 0;                       // block sits flush left, like the workbook
+  align-items: stretch;
+}
+#quarto-header .navbar-brand-container {
+  background: $uo-green;
+  margin: 0 1.5rem 0 0;
+  padding: 0.9rem 1.4rem;
+  display: flex;
+  align-items: center;
+}
+#quarto-header .navbar-brand,
+#quarto-header .navbar-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  white-space: normal;
+  max-width: 14rem;
+}
+#quarto-header .navbar-nav .nav-link {
+  color: $ink;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid transparent;
+}
+#quarto-header .navbar-nav .nav-link:hover {
+  color: $uo-green;
+}
+#quarto-header .navbar-nav .nav-link.active {
+  color: $uo-green;
+  border-bottom-color: $uo-green;
+}
+#quarto-header .navbar-toggler {
+  margin-right: 0.75rem;
+  align-self: center;
+}
+
+// ---------- Page title: green, two-tone convention ----------
+h1.title {
+  color: $uo-green;
+  font-weight: 700;
+  font-size: 2rem;
+}
+// Two-tone titles: write  title: "[Lead-in:]{.lead-in} rest of title"
+// The lead-in stays green, the rest turns black. Plain titles stay all green.
+h1.title:has(.lead-in) { color: $ink; }
+h1.title .lead-in { color: $uo-green; font-weight: 700; font-size: inherit; }
+.quarto-title .subtitle {
+  color: $ink;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+// ---------- Section headings ----------
+h2 {
+  color: $ink;
+  font-weight: 700;
+  border-bottom: none;
+}
+h3, h4 { color: $ink; }
+
+// ---------- Boxes: thin stroke, green regular-weight header ----------
+div.callout {
+  border: 1px solid $line;
+  border-left: 1px solid $line;
+  border-radius: 0;
+  background: #ffffff;
+}
+div.callout.callout-style-default > .callout-header {
+  background: #ffffff;
+  color: $uo-green;
+  font-weight: 400;
+  font-size: 1rem;
+  border-bottom: 1px solid $line;
+}
+div.callout .callout-icon::before { display: none; }   // no colored icons
+div.callout-note.callout-style-default .callout-icon-container,
+div.callout-tip.callout-style-default .callout-icon-container { display: none; }
+div.callout.callout-style-default[class*="callout-"] {
+  border-left: 1px solid $line !important;
+}
+div.callout .callout-body-container { color: $ink; }
+
+// "Examples:" text style (10 pt italic black): wrap in ::: {.examples}
+.examples {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: $ink;
+}
+
+// ---------- Tables: thin lines, green header row ----------
+table { border-color: $line; }
+table thead th, .table > thead > tr > th, table.table > thead > tr > th {
+  background-color: $uo-green !important;
+  color: #ffffff !important;
+  border-color: $uo-green !important;
+  font-weight: 600;
+}
+table > tbody > tr > td { border-color: $line; }
+
+// ---------- Footer badge: green fill, white text, bottom-right ----------
+.nav-footer {
+  border-top: 1px solid $line;
+  align-items: center;
+}
+.footer-badge {
+  display: inline-block;
+  background: $uo-green;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.3rem 1.1rem;
+  min-width: 10rem;
+  text-align: center;
+}
