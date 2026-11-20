@@ -1,0 +1,21 @@
+---
+title: "Schedule"
+---
+
+## Session overview
+
+*[Fill in your actual dates and topics below. Add or remove rows as needed.]*
+
+| Session | Date | Topic | Materials |
+|---|---|---|---|
+| 1 | *[date]* | *[e.g., Know your audience: framing your research for different listeners]* | [Materials](materials.qmd) |
+| 2 | *[date]* | *[e.g., Designing clear scientific figures]* | [Materials](materials.qmd) |
+| 3 | *[date]* | *[e.g., The elevator pitch and the lightning talk]* | [Materials](materials.qmd) |
+| 4 | *[date]* | *[e.g., Writing for a general audience]* | [Materials](materials.qmd) |
+| 5 | *[date]* | *[e.g., Practice talks & peer feedback]* | n/a |
+
+## Logistics
+
+- **Location:** *[room / Zoom link]*
+- **Time:** *[e.g., Tuesdays, 3:00-4:30 PM]*
+- **Office hours:** *[if applicable]*
