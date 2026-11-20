@@ -1,0 +1,30 @@
+---
+title: "NIH Fellowship Prep"
+subtitle: "Course & workshop materials for bioengineering PhD students and postdocs"
+page-layout: full
+---
+
+## Welcome
+
+This site hosts materials for a course / workshop series on **scientific communication** for bioengineering PhD students and postdocs. It covers skills like writing for different audiences, presenting technical work clearly, designing figures, and communicating science to non-specialists.
+
+::: {.callout-note}
+## This is a placeholder page
+Replace this text with your own welcome message, a short description of the course, and who it's for. Delete this callout box once you've updated the content.
+:::
+
+### What you'll find here
+
+- **[About](about.qmd)**: goals, audience, and format of the course
+- **[Schedule](schedule.qmd)**: session-by-session breakdown
+- **[Materials](materials.qmd)**: slides, handouts, and activities (UO login required)
+- **[Resources](resources.qmd)**: further reading and reference links
+
+### Quick facts
+
+| | |
+|---|---|
+| **Audience** | Bioengineering PhD students & postdocs |
+| **Format** | *[e.g., 3-session workshop, semester course, one-day intensive]* |
+| **Prerequisites** | *[None / describe here]* |
+| **Contact** | *[your email]* |
