@@ -4,6 +4,7 @@ subtitle: "Course & workshop materials for bioengineering PhD students and postd
 page-layout: full
 ---
 
+
 ## Welcome
 
 This site hosts materials for a course / workshop series on **scientific communication** for bioengineering PhD students and postdocs. It covers skills like writing for different audiences, presenting technical work clearly, designing figures, and communicating science to non-specialists.
