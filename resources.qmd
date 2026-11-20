@@ -1,0 +1,26 @@
+---
+title: "Resources"
+---
+
+## Books & articles
+
+- *[e.g., "The Craft of Scientific Presentations" by Michael Alley]*
+- *[e.g., "Writing Science" by Joshua Schimel]*
+
+## Talks worth watching
+
+- *[link to a favorite conference talk, TED talk, etc.]*
+
+## Tools
+
+- *[e.g., BioRender for figures]*
+- *[e.g., Overleaf for LaTeX writing]*
+
+## Other workshops & courses
+
+- *[links to related programs, e.g., a university's science communication center]*
+
+::: {.callout-note}
+## This is a placeholder page
+Replace each bullet with real links and a one-line note on why it's useful.
+:::
